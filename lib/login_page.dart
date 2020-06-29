@@ -17,6 +17,7 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       body: Column(
         children: <Widget>[
           Expanded(
@@ -134,7 +135,7 @@ class _LoginPageState extends State<LoginPage> {
                   IconButton(
                     icon: Icon(Icons.home),
                     onPressed: () {
-                      launch('https://flutter.io');
+                      launch('https://alexvo1993.wixsite.com/todolist');
                     },
                   )
                 ]),
